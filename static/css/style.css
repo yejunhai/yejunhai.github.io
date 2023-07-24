@@ -1,0 +1,160 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+.swiper-wrapper,
+.container{
+    margin: 0 auto;
+}
+body{
+    font-size: 18px;
+    font-family: "Microsoft YaHei UI";
+}
+.flex, .row, .column, .row-center, .center, .column-center, .between, .around {
+    display: flex;
+    box-sizing: border-box
+}
+
+.row, .column {
+    display: flex;
+    flex-flow: row nowrap
+}
+
+.row-fit {
+    width: 100%
+}
+
+.column {
+    flex-direction: column
+}
+
+.column-reverse {
+    flex-direction: column-reverse
+}
+
+.column-bottom {
+    align-items: flex-end
+}
+
+.column-top {
+    align-items: flex-start
+}
+
+.column-fit {
+    height: 100%
+}
+
+.list, .list-column {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    box-sizing: border-box
+}
+
+.list-column {
+    flex-direction: column
+}
+
+.fit {
+    flex: 1
+}
+
+.fill {
+    flex-grow: 1
+}
+
+.row-center, .center {
+    justify-content: center
+}
+
+.row-reverse {
+    flex-direction: row-reverse
+}
+
+.row-right {
+    justify-content: flex-end
+}
+
+.row-left {
+    justify-content: flex-start
+}
+
+.column-center, .center {
+    align-items: center
+}
+
+.ad-container{
+    padding: 100px 0px 100px 200px;
+    min-width: 1024px;
+    min-height: 960px;
+}
+.copyright, .copyright a{
+    font-size: 14px;
+    font-family:Roboto;
+    color:rgba(173,173,173,1)
+}
+.app_name{
+    margin-top: 660px;
+}
+
+
+.btn{
+    display: inline-block;
+    text-align: center;
+    padding: 12px 30px;
+}
+
+.btn-primary{
+    background:#1097FF;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 8px;
+}
+.intro-image{
+    text-align: center;
+    width: 100%;
+}
+.intro-image img{
+    width: 100%; max-width: 2400px; min-width: 1200px;
+}
+.footer, .footer a{
+    color: #BEC9D0;
+}
+
+
+.info{
+    padding-top: 230px;
+}
+
+.desc{
+    color: #8D9BA5;
+    font-size: 12px;
+    margin-bottom: 61px;
+}
+h1{
+    font-size: 56px;
+    margin: 0;
+}
+h2{
+    color: #1097FF ;
+    font-size: 28px;
+    margin: 50px 0;
+}
+h3{
+    font-size: 20px;
+    color: #64737E;
+    margin: 0 0 23px 0;
+}
+
+.navbar{
+    padding: 20px;
+    background: #f2f9ff;
+    color: #333;
+    font-size: 18px;
+}
